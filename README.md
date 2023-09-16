@@ -4,6 +4,11 @@
 [![Format](https://github.com/nogibjj/ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject/actions/workflows/format.yml) [![Lint](https://github.com/nogibjj/ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject/actions/workflows/lint.yml) [![OnInstall](https://github.com/nogibjj/ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject/actions/workflows/install.yml) [![Test](https://github.com/nogibjj/ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject/actions/workflows/test.yml)
 
 ---
+
+**Walk Through Youtube Video**
+[Youtube](https://youtu.be/YduYJFkaXa0)
+
+---
 **Summary**
 
 This project demonstrates how to set up Continuous Integration (CI) using GitHub Actions for a Python-based Data Science project. This project serves as a reference for setting up Continuous Integration in Data Science projects, ensuring code quality and consistency. 
@@ -36,3 +41,5 @@ This project demonstrates how to set up Continuous Integration (CI) using GitHub
 
 - **Pinned requirements.txt**:
   - Specifies exact versions of dependencies.
+
+---
