@@ -2,8 +2,11 @@
 using common fucntions from lib.py"""
 import sys
 import pandas as pd
-sys.path.append("/workspaces/ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject")
-import src.lib as lib
+try:
+    import lib
+except ModuleNotFoundError:
+    sys.path.insert(1, './src')
+    import lib
 
 
 def run_descriptive_stats(data_: pd.DataFrame, target_column: str) -> dict:
