@@ -56,6 +56,7 @@ def visualize_dataset(data_: pd.DataFrame, outcome_var: str, target_var: str,
     custom_cmap = ListedColormap(colors)
 
     # Add scatter plot of outcome vs predictor
+    plt.figure()
     plt.scatter(
         data_[target_var],
         data_[outcome_var],
