@@ -1,4 +1,5 @@
-"Script to run descriptive statistics on the iris dataset, using common fucntions from lib.py"
+"""Script to run descriptive statistics on the iris dataset, 
+using common fucntions from lib.py"""
 import pandas as pd
 import lib
 
@@ -19,7 +20,8 @@ def run_visualizations(data_: pd.DataFrame, outcome_var: str, target_var: str,
                        inteaction_term: str) -> None:
     "Runs visualizations on the passed dataset"
     lib.plot_hist(data_, "petal_width", jupyter=False)
-    lib.visualize_dataset(data_, outcome_var, target_var, inteaction_term, jupyter=False)
+    lib.visualize_dataset(data_, outcome_var, target_var, inteaction_term, 
+                          jupyter=False)
 
 if __name__ == '__main__':
     data = pd.read_csv("data/iris_data.csv")
