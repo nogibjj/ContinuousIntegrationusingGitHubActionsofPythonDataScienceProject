@@ -129,7 +129,7 @@ def plot_hist(data_: pd.DataFrame, col: str, jupyter: bool=False) -> None:
 
 if __name__ == "__main__":
     data = pd.read_csv("data/iris_data.csv")
-    TARGET_COLUMN = "sepal_width"
+    TARGET_COLUMN = "sepal_length"
 
     print('Target Column: ', 'TARGET_COLUMN')
     print('25th Quantile: ', return_25th_quantile(data, TARGET_COLUMN))
