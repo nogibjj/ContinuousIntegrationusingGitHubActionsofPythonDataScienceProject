@@ -12,7 +12,7 @@ format:
 
 lint:
 	nbqa ruff src/*.ipynb
-	ruff lint src/*.py
+	ruff check src/*.py
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile
