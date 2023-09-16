@@ -1,8 +1,9 @@
-name: PythonCiCd
+name: Test
 
 on:
-  workflows: ["OnInstall"]
-    branches: [ "main" ]
+  workflow_run:
+    workflows: ["OnInstall"]
+    branches: ["main"]
     types: 
       - completed
 
