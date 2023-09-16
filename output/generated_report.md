@@ -9,3 +9,5 @@ Standard Deviation: 0.828
  
 
 ![Visualization](visualization.png)
+
+![viz](visualization_hist.png)
