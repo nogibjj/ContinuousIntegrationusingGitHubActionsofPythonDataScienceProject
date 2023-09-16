@@ -1,7 +1,10 @@
-"""Script to run descriptive statistics on the iris dataset, 
+"""Script to run descriptive statistics on the iris dataset,
 using common fucntions from lib.py"""
+import sys
 import pandas as pd
 import lib
+
+sys.path.append('../src')
 
 def run_descriptive_stats(data_: pd.DataFrame, target_column: str) -> dict:
     "Runs descriptive statistics on the passed dataset"
