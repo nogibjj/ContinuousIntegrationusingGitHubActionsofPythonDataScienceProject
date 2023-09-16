@@ -114,6 +114,7 @@ def visualize_dataset(data_: pd.DataFrame, outcome_var: str, target_var: str,
 
 def plot_hist(data_: pd.DataFrame, col: str, jupyter: bool=False) -> None:
     """Plot histogram of the given column"""
+    plt.figure()
     plt.hist(data_[col], bins=10, color='green', edgecolor='black', linewidth=1.2)
     plt.title(f"Histogram of {col}")
     plt.xlabel(col)
