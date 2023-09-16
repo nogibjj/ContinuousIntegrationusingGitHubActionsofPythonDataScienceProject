@@ -1,9 +1,7 @@
 """Script to run descriptive statistics on the iris dataset,
 using common fucntions from lib.py"""
-import sys
 import pandas as pd
-sys.path.append('/workspaces/ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject')
-import src.lib as lib
+import lib
 
 
 def run_descriptive_stats(data_: pd.DataFrame, target_column: str) -> dict:
