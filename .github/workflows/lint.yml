@@ -1,7 +1,7 @@
 name: PythonCiCd
 
 on:
-  workflows: ["Install"]
+  workflows: ["OnInstall"]
     branches: [ "main" ]
     types: 
       - completed
