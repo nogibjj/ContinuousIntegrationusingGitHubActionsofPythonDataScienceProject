@@ -1,8 +1,8 @@
 """Script to run descriptive statistics on the iris dataset,
 using common fucntions from lib.py"""
 import sys
-sys.path.append("/workspaces/ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject")
 import pandas as pd
+sys.path.append("/workspaces/ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject")
 import src.lib as lib
 
 
