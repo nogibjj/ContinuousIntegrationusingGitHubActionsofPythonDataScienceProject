@@ -2,9 +2,9 @@
 using common fucntions from lib.py"""
 import sys
 import pandas as pd
+sys.path.append('../src')
 import lib
 
-sys.path.append('../src')
 
 def run_descriptive_stats(data_: pd.DataFrame, target_column: str) -> dict:
     "Runs descriptive statistics on the passed dataset"
