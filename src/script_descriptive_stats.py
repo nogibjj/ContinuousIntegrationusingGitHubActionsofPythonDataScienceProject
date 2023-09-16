@@ -25,7 +25,7 @@ def run_descriptive_stats(data_: pd.DataFrame, target_column: str) -> dict:
 def run_visualizations(data_: pd.DataFrame, outcome_var: str, target_var: str,
                        inteaction_term: str) -> None:
     "Runs visualizations on the passed dataset"
-    lib.plot_hist(data_, "petal_width", jupyter=False)
+    lib.plot_hist(data_, target_var, jupyter=False)
     lib.visualize_dataset(data_, outcome_var, target_var, inteaction_term, 
                           jupyter=False)
 
