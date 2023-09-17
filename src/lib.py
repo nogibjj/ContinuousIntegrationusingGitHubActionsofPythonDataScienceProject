@@ -111,6 +111,7 @@ def visualize_dataset(data_: pd.DataFrame, outcome_var: str, target_var: str,
             report.write(f'Median: {round(median, 3)} \n \n \n')
             report.write(f'Standard Deviation: {round(stand_dev, 3)} \n \n \n')
             report.write("\n![Visualization](visualization.png)\n")
+            report.write("\n![Viz](visualization_hist.png)\n")
 
 
 def plot_hist(data_: pd.DataFrame, col: str, jupyter: bool=False) -> None:
