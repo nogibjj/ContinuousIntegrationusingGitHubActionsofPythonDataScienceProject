@@ -11,7 +11,7 @@
 ---
 **Summary**
 
-This project demonstrates how to set up Continuous Integration (CI) using GitHub Actions for a Python-based Data Science project. This project serves as a reference for setting up Continuous Integration in Data Science projects, ensuring code quality and consistency. 
+This project serves as an illustrative guide for implementing Continuous Integration (CI) using GitHub Actions in Python-based Data Science projects. By adopting CI, it helps maintain code quality and consistency throughout the development process. The workflows include linting, formatting, installing dependencies, and running tests, ensuring that these critical steps are automatically executed with every push and pull request to the repository.
 
 ---
 **Project Structure**
